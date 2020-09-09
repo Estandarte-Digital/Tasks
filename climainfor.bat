@@ -1,2 +1,2 @@
-cd C:\Users\ED01\PycharmProjects\ClimaInfo
+cd C:\Users\%username%\PycharmProjects\ClimaInfo
 npm run electron

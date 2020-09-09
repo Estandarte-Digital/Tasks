@@ -1,4 +1,4 @@
 call conda activate estandarte
-cd C:\Users\ED01\PycharmProjects\face-mask-detector\
-python C:\Users\ED01\PycharmProjects\face-mask-detector\run_cam0.py
+cd C:\Users\%username%\PycharmProjects\face-mask-detector\
+python C:\Users\%username%\PycharmProjects\face-mask-detector\run_cam0.py
 pause
