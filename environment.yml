@@ -36,6 +36,7 @@ dependencies:
   - xz=5.2.5=h62dcd97_0
   - zlib=1.2.11=h62dcd97_4
   - zstd=1.4.5=h04227a9_0
+  - pip==20.2.2
   - pip:
     - absl-py==0.9.0
     - astunparse==1.6.3
@@ -60,7 +61,6 @@ dependencies:
     - opencv-contrib-python==3.4.8.29
     - openpifpaf==0.11.9
     - opt-einsum==3.3.0
-    - pip==20.2.2
     - protobuf==3.12.4
     - psutil==5.7.2
     - pyasn1==0.4.8
@@ -80,11 +80,9 @@ dependencies:
     - tensorflow==2.3.0
     - tensorflow-estimator==2.3.0
     - termcolor==1.1.0
-    - tflite-runtime==2.1.0.post1
     - tinkerforge==2.1.26
     - urllib3==1.25.10
     - werkzeug==1.0.1
     - wrapt==1.12.1
     - zipp==3.1.0
-prefix: C:\Users\ED01\miniconda3\envs\estandarte
 
