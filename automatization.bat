@@ -11,7 +11,6 @@ cd C:\Users\%username%\PycharmProjects\fusion_recognizers
 git submodule init
 git submodule update
 
-
 cd C:\Users\%username%\PycharmProjects\Tasks
 conda env create -f environment.yml
 call conda estandarte
