@@ -24,7 +24,11 @@ git submodule update
 
 cd C:\Users\%username%\PycharmProjects\Tasks\programacion_tareas
 python adapt_xml.py
-
+cd C:\Users\%username%\PycharmProjects\Tasks\programacion_tareas\resultado
+schtasks /create /tn bot /xml bot.xml
+schtasks /create /tn emotion_report /xml emotion_report.xml
+schtasks /create /tn fusion /xml fusion.xml
+schtasks /create /tn Unity /xml Unity.xml
 
 cd C:\Users\%username%\PycharmProjects\Tasks
 conda env create -f environment.yml
