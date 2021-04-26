@@ -31,6 +31,7 @@ schtasks /create /tn bot /xml bot.xml
 schtasks /create /tn emotion_report /xml emotion_report.xml
 schtasks /create /tn fusion /xml fusion.xml
 schtasks /create /tn Unity /xml Unity.xml
+schtasks /create /tn taskkill /xml taskkill.xml
 
 cd C:\Users\%username%\PycharmProjects\Tasks
 conda env create -f environment.yml
